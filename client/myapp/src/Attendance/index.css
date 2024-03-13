@@ -1,0 +1,75 @@
+.attendance-page-body{
+    min-height: 100vh;
+    background-color: #060722;
+    color: #ffffff;
+    padding: 30px;
+
+}
+.attendance-date{
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-style: italic;
+    cursor: pointer;
+    border: 3px solid #00000050;
+    margin: 10px 0;
+    margin-right: auto;
+}
+.attendance-table{
+    border: 3px solid #00000050;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 100%;
+    /* text-align: center; */
+}
+.attendance-table thead .tr{
+    font-style: italic;
+    text-align: left;
+    background-color: #0d0e30;
+    color: #ffffff;
+    border-radius: 5px;
+    
+}
+
+.attendance-table td,.attendance-table th{
+    border: 1px solid #00000050;
+    border-collapse: separate;
+    padding: 10px;
+    border-spacing:20px ;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.attendance-submit{
+    padding: 5px 40px;
+    margin: 20px;
+    border: 2px solid #00000050;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.5s;
+    color: #000000;
+
+    
+}
+.attendance-submit-container{
+    text-align: center;
+}
+.attendance-submit:hover{
+        background-image: linear-gradient(30deg, #1e055c,#ffffff,#ffffff, #1e055c);
+        box-shadow: inset 2px 2px 14px #000000;
+        border: 2px solid #ffffff;
+        color: #ffffff;
+        cursor: pointer;
+        color: #000000;
+}
+.link-button{
+    color: #000000;
+
+}
+.attendance-submit-container .link {
+    text-decoration: none;
+    font-style: italic;
+}
+.link-button:hover{
+    color: #000000;
+}
